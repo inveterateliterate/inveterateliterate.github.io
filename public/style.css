@@ -77,11 +77,11 @@ max-width: 1040px;
 /*Portfolio*/
 #portfolio {
  background-color: #F5F5F5;
- min-height: 300px;
+ min-height: 400px;
 }
 
-#portfolio h1 {
- font-size: 80px;	
+#portfolio h3 {
+ font-size: 60px;	
 	margin-top: 40px;
   color: #69AED9;
   text-align: center;
@@ -92,7 +92,7 @@ max-width: 1040px;
 #portfolio .img-w-txt {
 	text-align: justify;
 	width: 300px;
-	margin: 20px 20px;
+	margin: 20px;
 }
 
 .caption {
@@ -106,7 +106,7 @@ max-width: 1040px;
 #portfolio img {
 	height: 200px;
 	width: 300px;
-	border: 1px solid #69AED9;	
+	/*border: 1px solid #69AED9;*/	
 }
 
 /*Contact*/
