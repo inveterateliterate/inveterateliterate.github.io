@@ -143,9 +143,12 @@ body.sticky div#content{
   padding-bottom: 20px;
 }
 
-#resume-content .row {
-  margin-right: 40px;
-  margin-left: 40px;
+#resume-content .work {
+  padding-right: 60px;
+}
+
+#resume-content .background {
+  padding-left: 60px;
 }
 
 #resume-content i {
