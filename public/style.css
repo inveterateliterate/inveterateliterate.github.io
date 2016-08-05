@@ -26,6 +26,10 @@ body.sticky div#header {
   clear: both;
 }
 
+body.sticky div#content{
+  margin-top: 100px;
+}
+
 #nav-anchor {
   position: relative;
   float: right;
@@ -60,7 +64,6 @@ body.sticky div#header {
   height: 350px;
   text-align: center;
   color: #F5F5F5;
-  margin-top: 100px;
 }
 
 #about h1 {	
