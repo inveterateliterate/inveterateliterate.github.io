@@ -6,6 +6,7 @@ font-family: 'Heebos', sans-serif;
 }
 
 .container {
+width: 100%;
 max-width: 1040px;
 }
 
@@ -15,22 +16,21 @@ max-width: 1040px;
   background: #69AED9;
   border-bottom: 2px solid #F5F5F5;
   z-index: 2;
+  width: 100%;
+}
+
+body.sticky div#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  clear: both;
 }
 
 #nav-anchor {
-	position: relative;
+  position: relative;
   float: right;
-	padding: 25px 8px;
+  padding: 25px 8px;
   margin-right: -80px;
-}
-
-.stick {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  z-index: 4;
-  clear: both;
 }
 
 .nav-pills li {
@@ -54,23 +54,24 @@ max-width: 1040px;
 
 /*About*/
 #about {
-	background: url(https://images.unsplash.com/photo-1428189923803-e9801d464d76?dpr=1&auto=format&crop=entropy&fit=crop&w=767&h=441&q=80) no-repeat center center;
-	background-size: cover;
-	color: #F5F5F5;
+  background: url(https://images.unsplash.com/photo-1428189923803-e9801d464d76?dpr=1&auto=format&crop=entropy&fit=crop&w=767&h=441&q=80) no-repeat center center;
+  background-size: cover;
+  color: #F5F5F5;
   height: 350px;
   text-align: center;
   color: #F5F5F5;
+  margin-top: 100px;
 }
 
 #about h1 {	
 	font-size: 80px;
-	font-weight: 40;	
+	font-weight: 600;	
 	margin-top: 40px;
 }
 
 #about h3 {
 	font-size: 25px;
-	font-weight: 20;
+	font-weight: 500;
 	margin-top: 10px;
 }
 
@@ -80,27 +81,28 @@ max-width: 1040px;
  min-height: 400px;
 }
 
-#portfolio h3 {
+#portfolio h1 {
  font-size: 60px;	
-	margin-top: 40px;
+ margin-top: 40px;
   color: #69AED9;
   text-align: center;
   padding: 10px;
+  font-weight: 500;
 }
 
 
 #portfolio .img-w-txt {
 	text-align: justify;
-	width: 300px;
-	margin: 20px;
+	width: 28%;
+	margin: 2.5% 2.5%;
 }
 
 .caption {
 	color: #69AED9;
 	font-weight: bold;
 	text-align: center;
-	width: 300px;
-  padding-top: 10px;
+	width: 28%;
+  	padding-top: 10px;
 }
 
 #portfolio img {
@@ -108,6 +110,65 @@ max-width: 1040px;
 	width: 300px;
 	/*border: 1px solid #69AED9;*/	
 }
+
+/*Resume*/
+#resume {
+	background: url(https://images.unsplash.com/photo-1459664018906-085c36f472af?dpr=1&auto=format&crop=entropy&fit=crop&w=767&h=511&q=80) no-repeat center center;
+	background-size: cover;
+	color: #F5F5F5;
+  height: 240px;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+#resume h1 {
+  font-size: 80px;
+	font-weight: 40;	
+	margin-top: 80px;
+}
+
+#resume-content {
+  background-color: #F5F5F5;
+  color: #69AED9;
+  
+}
+
+#resume-content h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+#resume-content .row {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+#resume-content i {
+  padding-right: 20px;
+}
+
+#resume-content p {
+  padding-bottom: -20px;
+}
+
+#resume-content ul {
+  padding-bottom: 20px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.title {
+  font-style: italic;
+}
+
+#resume-content li {
+  text-decoration: none;
+}
+
 
 /*Contact*/
 #contact {
@@ -157,12 +218,12 @@ max-width: 1040px;
 
 /*Bottom Banner*/
 .bottom-banner {
-	height: 80px;
+	height: 60px;
 }
 
 .bottom-banner ul {
 	list-style: none;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
 .bottom-banner li {
@@ -170,9 +231,12 @@ max-width: 1040px;
 	display: inline-block;
 }
 
-.bottom-banner img {
-	height: 30px;
-	width: 30px;
+.bottom-banner i {
 	border-radius: 20px;
-	border: 1px solid #fff;
+	color: #fff;
+  padding-right: 16px;
+}
+
+.bottom-banner p {
+  color: #fff;
 }
