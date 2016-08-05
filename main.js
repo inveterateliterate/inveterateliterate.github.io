@@ -1,5 +1,9 @@
 $(document).ready(function(){  
   
+  var uname = "iribon9";
+    var domain = "gmail";
+    var full = "mail" + "to:" + uname + "@" + domain + ".com";
+ $("a.connect").attr("href", full);
  
       $("nav a").click(function(evn){
         evn.preventDefault();
