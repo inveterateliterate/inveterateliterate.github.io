@@ -105,7 +105,14 @@ body.sticky div#content{
 	font-weight: bold;
 	text-align: center;
 	width: 300px;
-  	padding-top: 10px;
+  padding-top: 10px;
+}
+
+.summary {
+  font-style: italic;
+  color: #69AED9;
+  text-align: center;
+  width: 300px;
 }
 
 #portfolio img {
